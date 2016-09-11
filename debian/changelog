@@ -1,0 +1,17 @@
+patience-sddm-settings (2016.1.0~alpha-3) unstable; urgency=medium
+
+  * Depends now on sddm-theme-$release
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Aug 2016 11:33:43 +0200
+
+patience-sddm-settings (2016.1.0~alpha-2) unstable; urgency=medium
+
+  * fixed some typos 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Aug 2016 03:41:04 +0200
+
+patience-sddm-settings (2016.1.0~alpha-1) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Aug 2016 02:10:05 +0200
