@@ -17,7 +17,7 @@ Architecture: all
 Depends: ${misc:Depends},
          sddm
 Description: SDDM settings in installed mode
- add description here
+ Meta-Package for distribution settings
 
 Package: @CODENAME_SAFE@-sddm-livesettings
 Architecture: all
@@ -28,4 +28,4 @@ Depends: ${misc:Depends},
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings in live mode
- Meta-Package
+ Meta-Package for distributio live settings
