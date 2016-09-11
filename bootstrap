@@ -2,7 +2,7 @@
 set -e
 
 
-. templates/functions.sh
+source ./functions.sh
 
 source_version_info
 debian_changelog
@@ -12,16 +12,24 @@ debian_foo_basics
 basic_control sddm
 debian_rules
 
-# sddm
-# ==============
-#[ -d sddm ] && rm -r sddm
-#cp -a templates/sddm .
+# debian
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    ./debtemplate/copyright \
+    > ./debian/copyright
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/get-template \
+    > ./debian/get-template
+chmod 755 ./debian/get-template
 
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/sddm-livesettings.postrm \
-    > debian/${CODENAME_SAFE}-sddm-livesettings.postrm
+    ./debtemplate/livesettings.postrm \
+    > ./debian/${CODENAME_SAFE}-sddm-livesettings.postrm
 
 
 exit 0
