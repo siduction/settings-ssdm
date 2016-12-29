@@ -15,7 +15,11 @@ Vcs-Browser: https://git.siduction.org/extra/settings-@FLAVOUR@.git
 Package: @CODENAME_SAFE@-@FLAVOUR@-settings
 Architecture: all
 Depends: ${misc:Depends},
-         sddm
+         sddm-theme-@CODENAME_SAFE@,         
+         sddm,
+         libpam-systemd,
+         gnome-icon-theme,
+         gnome-icon-theme-symbolic
 Description: SDDM settings in installed mode
  Meta-Package for distribution settings
 
