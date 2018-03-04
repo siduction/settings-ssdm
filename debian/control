@@ -4,19 +4,21 @@ Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
-               dh-systemd
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
 Homepage: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Vcs-Browser: https://git.siduction.org/extra/settings-sddm.git
 
-# sddm Settings
 Package: patience-sddm-settings
 Architecture: all
-Depends: ${misc:Depends},
-         sddm
-Description: SDDM settings in installed mode
+Depends: ${misc:Depends},      
+         sddm,
+         sddm-theme-patience,
+         libpam-systemd,
+         gnome-icon-theme,
+         gnome-icon-theme-symbolic
+Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
 Package: patience-sddm-livesettings
@@ -27,5 +29,5 @@ Depends: ${misc:Depends},
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
-Description: SDDM settings in live mode
- Meta-Package for distributio live settings
+Description: SDDM settings (live mode)
+ Meta-Package for distribution live settings
