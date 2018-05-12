@@ -3,13 +3,13 @@
 *.save
 
 # ignored debian $foo
-/*/*/debian/paintitblack-*/
-/*/*/debian/patience-*/
+/debian/paintitblack-*/
+/debian/patience-*/
 
-/*/*/debian/files
-/*/*/debian/debhelper-build-stamp
-/*/*/debian/*.debhelper
-/*/*/debian/*.log
-/*/*/debian/*.substvars
-/*/*/debian/tmp
+/debian/files
+/debian/debhelper-build-stamp
+/debian/*.debhelper
+/debian/*.log
+/debian/*.substvars
+/debian/tmp
 
