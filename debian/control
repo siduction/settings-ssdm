@@ -1,31 +1,31 @@
-Source: paintitblack-sddm-settings
+Source: xperimental-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.4
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
 Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: paintitblack-sddm-settings
+Package: xperimental-sddm-settings
 Architecture: all
-Depends: ${misc:Depends},      
+Depends: ${misc:Depends},
          sddm,
-         sddm-theme-paintitblack,
+         sddm-theme-xperimental,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: paintitblack-sddm-livesettings
+Package: xperimental-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         paintitblack-sddm-settings,
-         sddm-theme-paintitblack,
+         xperimental-sddm-settings,
+         sddm-theme-xperimental,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic

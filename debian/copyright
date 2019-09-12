@@ -3,7 +3,7 @@ Upstream-Name: settings-sddm
 Source: https://git.siduction.org/extra/settings-sddm.git
 
 Files: *
-Copyright: 2014-2018 Alf Gaida <agaida@siduction.org>
+Copyright: 2014-2019 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
 Files: debian/*
