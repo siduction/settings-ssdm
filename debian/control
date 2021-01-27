@@ -1,4 +1,4 @@
-Source: patience-sddm-settings
+Source: c-blues-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: patience-sddm-settings
+Package: c-blues-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-patience,
+         sddm-theme-c-blues,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: patience-sddm-livesettings
+Package: c-blues-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         patience-sddm-settings,
-         sddm-theme-patience,
+         c-blues-sddm-settings,
+         sddm-theme-c-blues,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
