@@ -1,4 +1,4 @@
-Source: c-blues-sddm-settings
+Source: cblues-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: c-blues-sddm-settings
+Package: cblues-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-c-blues,
+         sddm-theme-cblues,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: c-blues-sddm-livesettings
+Package: cblues-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-sddm-settings,
-         sddm-theme-c-blues,
+         cblues-sddm-settings,
+         sddm-theme-cblues,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
