@@ -1,4 +1,4 @@
-Source: farewell-sddm-settings
+Source: 2021-03-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: farewell-sddm-settings
+Package: 2021-03-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-farewell,
+         sddm-theme-2021-03,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: farewell-sddm-livesettings
+Package: 2021-03-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         farewell-sddm-settings,
-         sddm-theme-farewell,
+         2021-03-sddm-settings,
+         sddm-theme-2021-03,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
