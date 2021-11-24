@@ -1,4 +1,4 @@
-Source: 2021-03-sddm-settings
+Source: wintersky-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: 2021-03-sddm-settings
+Package: wintersky-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-2021-03,
+         sddm-theme-wintersky,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: 2021-03-sddm-livesettings
+Package: wintersky-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         2021-03-sddm-settings,
-         sddm-theme-2021-03,
+         wintersky-sddm-settings,
+         sddm-theme-wintersky,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
