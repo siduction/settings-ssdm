@@ -1,3 +1,9 @@
+wintersky-sddm-settings (2021.2.99-1) unstable; urgency=medium
+
+  * prepare wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 27 Nov 2021 19:21:06 +0100
+
 farewell-sddm-settings (2021.2.0-1) unstable; urgency=medium
 
   * set final version
