@@ -1,4 +1,4 @@
-Source: wintersky-sddm-settings
+Source: mow-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: wintersky-sddm-settings
+Package: mow-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-wintersky,
+         sddm-theme-mow,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: wintersky-sddm-livesettings
+Package: mow-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-sddm-settings,
-         sddm-theme-wintersky,
+         mow-sddm-settings,
+         sddm-theme-mow,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
