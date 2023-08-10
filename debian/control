@@ -1,4 +1,4 @@
-Source: mow-sddm-settings
+Source: giants-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: mow-sddm-settings
+Package: giants-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-mow,
+         sddm-theme-giants,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: mow-sddm-livesettings
+Package: giants-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         mow-sddm-settings,
-         sddm-theme-mow,
+         giants-sddm-settings,
+         sddm-theme-giants,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic

@@ -1,3 +1,9 @@
+giants-sddm-settings (2023.1-1) unstable; urgency=medium
+
+  * prepare release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 10 Aug 2023 18:31:33 +0200
+
 mow-sddm-settings (2022.1.0-1) unstable; urgency=medium
 
   * prepare Masters of War release
