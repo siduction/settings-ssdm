@@ -1,4 +1,4 @@
-Source: giants-sddm-settings
+Source: shine-on-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: giants-sddm-settings
+Package: shine-on-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-giants,
+         sddm-theme-shine-on,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: giants-sddm-livesettings
+Package: shine-on-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         giants-sddm-settings,
-         sddm-theme-giants,
+         shine-on-sddm-settings,
+         sddm-theme-shine-on,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
